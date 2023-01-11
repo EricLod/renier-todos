@@ -1,1 +1,1 @@
-# renier-todos
+# Renier's TODO app
