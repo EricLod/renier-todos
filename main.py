@@ -1,6 +1,5 @@
-from flask import Flask, request, url_for, redirect
+from flask import Flask, request
 import sqlite3
-from sqlite3 import Error
 import functions as f
 
 app = Flask(__name__)
