@@ -16,8 +16,8 @@ def main():
     #return render_template("index.html", all_data=data)
     return release_list
 
-"""
-@app.route('/login',methods = ['POST', 'GET'])
+
+@app.route('/login', methods=['POST', 'GET'])
 def login():
     if request.method == 'POST':
         user = request.form['nm']
@@ -25,7 +25,7 @@ def login():
     else:
         user = request.args.get('nm')
         return redirect(url_for('success',name = user))
-"""
+
 
 def get_db():
     db = getattr(g, "_database", None)
